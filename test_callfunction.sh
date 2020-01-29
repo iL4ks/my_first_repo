@@ -5,7 +5,7 @@
 date
 
 yday(){
- date --date
+ gdate +%d/%m/%Y
 }
 # invoke the function
 yday
